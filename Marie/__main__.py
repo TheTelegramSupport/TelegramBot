@@ -274,7 +274,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nI'm Always Alive!\n➥Uptime: `{}` \n➥Users: `{}` \n➥Chats: `{}` ".format(
+            caption="Hey `{}`,\n\nI'm Always Alive!\n➥Uptime: `{}` \n➥Users: `{}` \n➥Chats: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
@@ -440,10 +440,10 @@ def Marie_about_callback(update, context):
                 [
                  [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/i_am_pro_king"),
+        InlineKeyboardButton(text="Developer", url=f"https://t.me/Thetelegramsupport"),
                  ],
                  [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/TEAM-XTRON/Marie"),
+        InlineKeyboardButton(text="Source", url=f"https://t.me/TheTelegramNetwork"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="Marie_back"),
@@ -476,7 +476,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="๏›› soon",
+            text="๏›› Soon",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -518,7 +518,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ",
+                                text="Help",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -534,7 +534,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʜᴇʟᴘ",
+                            text="Help",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -778,7 +778,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/e5706c445a44065820372.mp4",
                 caption=f"""
-ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+ㅤ{dispatcher.bot.first_name} Is Alive Baby .....
 ━━━━━━━━━━━━━
 • **Owner :** [Support](https://t.me/{OWNER_USERNAME})
 • **Library  :** `{so}`
