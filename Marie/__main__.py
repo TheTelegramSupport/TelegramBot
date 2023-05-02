@@ -439,7 +439,7 @@ def Marie_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="Owner", url=f"https://t.me/{OWNER_USERNAME}"),
         InlineKeyboardButton(text="Developer", url=f"https://t.me/Thetelegramsupport"),
                  ],
                  [
