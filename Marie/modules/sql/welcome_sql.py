@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from KRISTY.modules.helper_funcs.msg_types import Types
-from KRISTY.modules.sql import BASE, SESSION
+from Marie.modules.helper_funcs.msg_types import Types
+from Marie.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, String, UnicodeText, Integer
 from sqlalchemy.sql.sqltypes import BigInteger
 
